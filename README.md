@@ -37,8 +37,8 @@ import webp from 'vite-plugin-img2webp';
 export default defineConfig({
   plugins: [
     webp({
-      include: path.join(__dirname, 'src/pages/index'),
-      declude: path.join(__dirname, 'src/pages/index/ignore.vue'),
+      include: path.join(__dirname, 'src/views'),
+      declude: path.join(__dirname, 'src/pages/index/ignore.vue'),//默认已经排除 node_modules
       imageType: ['.png', '.jpg']
     })
   ]
