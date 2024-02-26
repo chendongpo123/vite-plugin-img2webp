@@ -32,7 +32,7 @@ export default defineConfig({
 
 1.`vite.config.js`  
 ```javascript
-import webp from 'vite-plugin-webp';
+import webp from 'vite-plugin-img2webp';
 
 export default defineConfig({
   plugins: [
