@@ -109,9 +109,8 @@ const isSupportWebp = function () {
   }
 }
 
-const loadCom = function(i) {
-  const path = ['./assets/expand.png', './assets/expand.webp'];
-  return new URL(path[i], import.meta.url).href;
+const loadCom = function() {
+    return isSupportWebp() ? new URL(`@/assets/imgs/login-cover.webp`, import.meta.url).href : new URL(`@/assets/imgs/login-cover.png`, import.meta.url).href;
 }
 
 this.url = isSupportWebp() ? loadCom(1) : loadCom(0)
