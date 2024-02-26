@@ -1,18 +1,18 @@
-# vite-plugin-webp  
+# vite-plugin-img2webp  
 
 a plugin of vite for transform webp  
 
-> 1. vite-plugin-webp will create webp pictures
-> 2. vite-plugin-webp can transform JPEG, PNG, GIF and AVIF images of varying dimensions to `webp`
+> 1. vite-plugin-img2webp will create webp pictures
+> 2. vite-plugin-img2webp can transform JPEG, PNG, GIF and AVIF images of varying dimensions to `webp`
 
 ## Usage
 
 ```bash
-npm install vite-plugin-webp
+npm install vite-plugin-img2webp
 ```
 
 ```javascript
-import webp from 'vite-plugin-webp';
+import webp from 'vite-plugin-img2webp';
 
 export default defineConfig({
   plugins: [
@@ -87,7 +87,7 @@ webpClass();
 ## Javascript Example
 1.`vite.config.js`
 ```javascript
-import webp from 'vite-plugin-webp';
+import webp from 'vite-plugin-img2webp';
 
 export default defineConfig({
   plugins: [
